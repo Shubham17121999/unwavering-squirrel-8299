@@ -1,4 +1,4 @@
-#container{
+#topCards{
                     margin: 0% 1% 0% 5%;
                 }
                 body{
@@ -23,8 +23,4 @@
                 #topCards>div>div>img{
                     width: 100%;
                 }
-
-               
-                
-                
                 
