@@ -1,0 +1,26 @@
+#topCards{
+                    margin: 0% 1% 0% 5%;
+                }
+                body{
+                    box-sizing: border-box;
+                }
+               
+                #topCards{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 3%;
+                    height: auto;
+                }
+                #topCards>div>img{
+                   width:100%;
+                   height:100%;
+                }
+                #topCards>div:nth-child(2){
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap:3%;
+                }
+                #topCards>div>div>img{
+                    width: 100%;
+                }
+                
