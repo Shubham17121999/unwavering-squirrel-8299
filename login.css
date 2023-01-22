@@ -1,0 +1,116 @@
+body{
+                    margin: 0%;
+                
+                }
+                #main_div{
+                    display: grid;
+                    grid-template-columns: 40% 60%;
+                    color:#FFFFFF;
+                    
+                }
+                /* Left part CSS */
+                #left_side{
+                    background-color:#066bc5;
+                    display: grid;
+                    grid-template-columns: 15% 70%;
+                
+                    padding: 32px 32px
+                }
+                #left_side>#back>a>img{
+                    width:15px;
+                    height:10px;
+                    
+                }
+                #text_right{
+                    display: flex;
+                    flex-direction: column;
+                    gap:150px;
+                }
+                #text_center{
+                    font-size: 14px;
+                }
+                #text_center>h1{
+                    font-size: 35px;
+                }
+                #text_center>h1::before{
+                    color:rgb(250, 219, 43);
+                    content: "Login";
+                    
+                }
+                #text_bottum{
+                    font-size: 11px;
+                    
+                }
+                #speacial_align{
+                display: flex;
+                gap: 10px;
+                }
+                /* Right side part CSS*/
+                #right_side{
+                color: black;
+                padding: 60px 82px;
+                font-size: .875rem;;
+                display: flex;
+                flex-direction: column;
+                row-gap: 35px;;
+                }
+                #form>p{
+                
+                margin: 0%;
+                }
+                #form>input{
+                width:440px;
+                height:45px;
+                border-radius: 5px;
+                border:1px solid rgb(0, 0, 0);
+                margin-top:5px;
+                margin-bottom: 2px;
+                }
+                
+                #form>input:hover{
+                border-color: #1a84e0;
+                }
+                
+                .create_acount_buttons{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                }
+                #right_side>#submit_button>button{
+                width:440px;
+                height:55px;
+                border-radius: 30px;
+                background-color: #1877cb;
+                color: #ffffff;
+                border:1px solid rgb(0, 0, 0)
+                
+                }
+                #submit_button{
+                margin-top: 20px;
+                }
+                #right_side>#submit_button>button:hover{
+                background-color: #157bd4
+                }
+                #hint{
+                margin-top: 50px;
+                }
+                
+                #hint>p{
+                font-weight: bold
+                }
+                #right_side>#form>p>a,button{
+                font-weight: bold
+                }
+                /* Create bottons CSS */
+                .create_acount_buttons>button{
+                width:440px;
+                height:55px;
+                border-radius: 30px;
+                background-color: #FFFFFF;
+                font-weight: bold;
+                border:1px solid #111;
+                
+                }
+                .create_acount_buttons>button:hover{
+                border: 2px solid black;
+                }

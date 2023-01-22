@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<style>
+   
+</style>
+<body>
+    <div id="main_div">
+      
+        <div id="left_side">
+            <div id="back">
+              
+                <a href=""><img src="https://www.zippyyum.com/Content/DaPages/images/back.png"></a>
+            </div>
+
+            <div id="text_right">
+                <div><img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="Ikea logo"></div>
+
+               
+                <div id="text_center">
+                    <h1> to your IKEA account.</h1>
+                    <p>Too many passwords?</p>
+                    <p>You can now login with an OTP we will send on your email address or verified mobile number.</p>
+                    <p>Access your IKEA account using your email address to add and verify your mobile number.</p>
+                    
+                </div>
+            
+                <div id="text_bottum">
+                <p id="speacial_align">IKEA.in -<a href="">Cookie Policy </a> and <a href="">Privacy Policy.</a></p>
+                <p>© Inter IKEA Systems B.V. 1999-2022</p> 
+                </div>
+            </div>
+        </div>
+
+        <div id="right_side">
+            <div id="form">
+                <p>Email or verified Mobile Number</p>
+                <input type="text" id="username">
+                <p>Login <a href="">with an OTP</a></p>
+            </div>
+            <div id="form">
+                <p>Password</p>
+                
+                <input type="password" id="id_password"></input>
+                <!-- <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer; float:center"></i>
+                 -->
+        
+                <p><a href="">Forgot your password?</a></p>
+
+            </div>
+
+            <div id="submit_button">
+                <button type="submit" onclick="login()">Continue</button>
+            </div>
+            <div id="hint">
+                <p>Do not have an IKEA account? Create one now:</p>
+            </div>
+
+            <div class="create_acount_buttons">
+                <button tyep="submit">I'm buying for my home</button>
+                <button tyep="submit">I'm buying for my company</button>
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+<script>
+   
+    function login(){
+                    let userId =document.getElementById("username").value;
+    
+    let password =document.getElementById("id_password").value;
+if(userId=="srk" && password =="srk" ){
+alert("login Successfully Done")
+
+}else if(userId==""){
+                    alert("Please enter UserID")
+}else if(userId !="" && password ==""){
+                    alert("Please enter Password");
+}
+
+else{
+                    alert("Please Check Your Username or Password")
+                    alert(password);
+}
+
+
+    }
+
+    
+</script>
+</html>
