@@ -1,0 +1,108 @@
+body {
+                    margin-top: 50px;
+                }
+               
+                * {
+                    margin: 0px;
+                    box-sizing: border-box;
+                  
+               
+                }
+               
+                #buttons {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+               
+                #buttons>div {
+                    margin: 20px;
+               
+                }
+               
+                #buttons>div>a>button {
+                    padding: 12px;
+                    font-size: 14px;
+                    width: 350px;
+                    border: none;
+                    color: #fff;
+                    background-color: #0058a3;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+               
+                #services {
+                    width: 75%;
+                    margin: auto;
+                    display: grid;
+                    gap: 30px;
+                    margin-top: 20px;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+               
+                .innerDiv {
+                    display: flex;
+                    border: 1px solid rgb(189, 188, 188);
+                }
+               
+                .innerDiv>div>img {
+                    padding: 30px;
+                }
+               
+                .policyDiv>div {
+                    padding: 5px;
+                }
+               
+                .policyDiv a {
+                    color: #0058a3;
+                    ;
+                    float: right;
+                    padding-right: 20px;
+                }
+               
+               
+                .cartDetail {
+                    display: flex;
+               
+                    justify-content: center;
+               
+                    gap: 10px;
+               
+               
+                }
+               
+                .cartDetail>button img {
+                    width: 22px;
+                }
+               
+                .cartDetail>button {
+                    border: none;
+                    background-color: #fff;
+                }
+               
+                .cartDetail>button:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+               
+                .cartDetail>img {
+                    width: 200px;
+                    height: 200px;
+                    margin: 20px;
+                }
+               
+                .cartMsg {
+                    color: #333;
+                    text-align: center;
+                    margin-bottom: 25px;
+                }
+               
+                .cartMsg>a {
+                    color: #0058a3;
+               
+                }
+               
+                .cartMsg>a:hover {
+                    cursor: pointer;
+                    color: black;
+                }
